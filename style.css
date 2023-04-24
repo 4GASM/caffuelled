@@ -1,0 +1,127 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Poppins;
+}
+::selection{
+  color: #B28CB8;
+  background:#B28CB8;
+}
+nav{
+  position: fixed;
+  background: #B28CB8;
+  width: 100%;
+}
+nav .menu{
+  max-width: 1250px;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 20px;
+}
+.menu .logo a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 35px;
+  font-weight: 600;
+}
+.menu ul{
+  display: inline-flex;
+}
+.menu ul li{
+  list-style: none;
+  margin-left: 7px;
+}
+.menu ul li:first-child{
+  margin-left: 0px;
+}
+.menu ul li a{
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  padding: 8px 15px;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+}
+.menu ul li a:hover{
+  background: #fff;
+  color: black;
+}
+.background{
+  background-color:#715875
+  
+}
+.img::before{
+  content: '';
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: #7D93FF
+}
+.center{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  padding: 0 40px;
+  text-align: center;
+}
+.center .title{
+  color: #87B890;
+  font-size: 90px;
+  font-weight: 600;
+  font-style: italic;
+  font-family: auto
+}
+.center .sub_title{
+  color:  #87B890;
+  font-size: 40px;
+  font-weight: 600;
+}
+.center .btns{
+  margin-top: 20px;
+}
+.center .btns button{
+  height: 55px;
+  width: 170px;
+  border-radius: 5px;
+  border: none;
+  margin: 0 10px;
+  border: 2px solid #662D9C;
+  font-size: 20px;
+  font-weight: 500;
+  padding: 0 10px;
+  cursor: pointer;
+  outline: none;
+  transition: all 0.3s ease;
+}
+.center .btns button:first-child{
+  color: #7D93FF;
+  background: none;
+}
+.btns button:first-child:hover{
+  background: #B88C7D;
+  color: #6B4E43
+}
+.center .btns button:last-child{
+  color: #6B4E43;
+}
+.center .btns .coffeedrinks{
+  background: #87B890;
+  margin-top: 120px;
+  width: 100%;
+  height: 80px;
+  z-index: 12;
+  padding: 0 20px;
+  font-display: center;
+  font-style: initial;
+  font-size: 350%;
+  cursor: pointer;
+}
+.center .btns .latte{
+  padding: 300px;
+}
+}
